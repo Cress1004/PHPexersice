@@ -61,13 +61,11 @@ if(array_key_exists("submitted",$_POST)){
             print("<table><tr>");
             print("<td style=\"width: 500px\">");
             foreach ($init_values as $key => $value) {
-                # code...
                 echo "<li><b>$key</b>: $value </li>";
             }
             print("</td><td style=\"width: 500px\">");
             if(array_key_exists("submitted",$_POST)){
                 foreach ($values as $key => $value) {
-                    # code...
                     echo "<li><b>$key</b>: $value </li>";
                 }
             }
