@@ -12,7 +12,7 @@ $connect = mysqli_connect(DB_SERVER, DB_USER, DB_PASSWORD, $db_name);
 if (!$connect) {
     die("Cannot connect to $server using $user");
 } else {
-    $query = "SELECT * FROM $table_name WHERE (Product_desc = \"$search\")";
+    $query = "SELECT * FROM $table_name WHERE (Product_desc = \"$search\")'";
     $results = mysqli_query($connect, $query);
     if ($results) {
         print '<h2><font color="blue">';
