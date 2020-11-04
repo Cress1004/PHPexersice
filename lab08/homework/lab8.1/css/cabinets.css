@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+p{
+    margin: 0.25in;
+    border: 0.25in solid black;
+    padding: 0.25in;
+    background: url(../../../../img/download2.jpeg);
+}
+body{
+    background: url(../../../../img/download4.jpeg);    
+    color: white;
+}
+.banner{
+    background: url(../../../../img/download.jpeg) repeat-x;
+    font-size: 50pt;
+    font-family: Arial Rounder MT Bold;
+}

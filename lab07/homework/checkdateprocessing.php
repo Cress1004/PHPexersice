@@ -38,6 +38,7 @@
                 case 12:
                     if ($day <= 0 || $day > 31)
                         print "Invalid for 31 days = $date";
+                        else  print "Valid date = $date";
                     break;
                 case 4:
                 case 6:
@@ -45,15 +46,22 @@
                 case 11:
                     if ($day <= 0 || $day > 30)
                         print "Invalid for 30 days date = $date";
+                    else  print "Valid date = $date";
                     break;
                 case 2:
                     if (namnhuan($year)) {
                         if ($day <= 0 || $day > 29)
                             print "Invalid for 29days date = $date";
-                        break;
+                        else {
+                            print "Valid date = $date";
+                        }
+                    } else {
+                        if ($day <= 0 || $day > 28)
+                            print "Invalid for 28 days date = $date";
+                        else {
+                            print "Valid date = $date";
+                        }
                     }
-                    if ($day <= 0 || $day > 28)
-                        print "Invalid for 28 days date = $date";
                     break;
                 default:
                     print "Valid date = $date";
