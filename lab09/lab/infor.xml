@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<student>
+    <name>
+        <firstname>Thanh</firstname>
+        <lastname>Nguyen</lastname>
+    </name>
+    <gender>
+        Female
+    </gender>
+    <birthday>
+        1999/10/04
+    </birthday>
+    <city>
+        Hai Duong
+    </city>
+    <university>
+        Hanoi University of Science and Technology
+    </university>
+    <contact>
+        <phone>0987654321</phone>
+        <mail>nuhoangchenhacc@gmail.com</mail>
+    </contact>
+</student>
